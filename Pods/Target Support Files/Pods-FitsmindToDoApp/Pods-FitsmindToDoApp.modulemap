@@ -1,0 +1,6 @@
+framework module Pods_FitsmindToDoApp {
+  umbrella header "Pods-FitsmindToDoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

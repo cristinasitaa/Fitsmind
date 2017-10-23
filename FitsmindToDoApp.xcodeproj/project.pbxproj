@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D041AC6F3F25396C4345027 /* Pods_FitsmindToDoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99B572169B098C885601DC77 /* Pods_FitsmindToDoApp.framework */; };
+		6BE113741F9D0DC600DD1C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE113731F9D0DC600DD1C9F /* AppDelegate.swift */; };
+		6BE1137B1F9D0DC600DD1C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BE1137A1F9D0DC600DD1C9F /* Assets.xcassets */; };
+		6BE1137E1F9D0DC600DD1C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE1137C1F9D0DC600DD1C9F /* LaunchScreen.storyboard */; };
+		6BEB8B601F9D1DC600B37F50 /* FMDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB8B5F1F9D1DC600B37F50 /* FMDataManager.swift */; };
+		6BEB8B691F9D2A9700B37F50 /* FMTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB8B671F9D2A9700B37F50 /* FMTask.swift */; };
+		6BEB8B701F9D2BEC00B37F50 /* FMTasksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEB8B6E1F9D2BEC00B37F50 /* FMTasksListViewController.swift */; };
+		6BEB8B711F9D2BEC00B37F50 /* FMTasksListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BEB8B6F1F9D2BEC00B37F50 /* FMTasksListViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B7DDA7C554F5F9D686249BA /* Pods-FitsmindToDoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitsmindToDoApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitsmindToDoApp/Pods-FitsmindToDoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5D21CD34D7AD144FD4702318 /* Pods-FitsmindToDoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitsmindToDoApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitsmindToDoApp/Pods-FitsmindToDoApp.release.xcconfig"; sourceTree = "<group>"; };
+		6BE113701F9D0DC600DD1C9F /* FitsmindToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitsmindToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BE113731F9D0DC600DD1C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BE1137A1F9D0DC600DD1C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BE1137D1F9D0DC600DD1C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BE1137F1F9D0DC600DD1C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BEB8B5F1F9D1DC600B37F50 /* FMDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDataManager.swift; sourceTree = "<group>"; };
+		6BEB8B671F9D2A9700B37F50 /* FMTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMTask.swift; sourceTree = "<group>"; };
+		6BEB8B6E1F9D2BEC00B37F50 /* FMTasksListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FMTasksListViewController.swift; path = FMTasksListViewController/FMTasksListViewController.swift; sourceTree = "<group>"; };
+		6BEB8B6F1F9D2BEC00B37F50 /* FMTasksListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FMTasksListViewController.xib; path = FMTasksListViewController/FMTasksListViewController.xib; sourceTree = "<group>"; };
+		99B572169B098C885601DC77 /* Pods_FitsmindToDoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitsmindToDoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BE1136D1F9D0DC600DD1C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D041AC6F3F25396C4345027 /* Pods_FitsmindToDoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BE113671F9D0DC600DD1C9F = {
+			isa = PBXGroup;
+			children = (
+				6BE113721F9D0DC600DD1C9F /* FitsmindToDoApp */,
+				6BE113711F9D0DC600DD1C9F /* Products */,
+				AD49FA31055AB5035D7FBF6A /* Pods */,
+				F57C94CE494572A76E3631DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6BE113711F9D0DC600DD1C9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BE113701F9D0DC600DD1C9F /* FitsmindToDoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BE113721F9D0DC600DD1C9F /* FitsmindToDoApp */ = {
+			isa = PBXGroup;
+			children = (
+				6BE113731F9D0DC600DD1C9F /* AppDelegate.swift */,
+				6BE113861F9D136500DD1C9F /* Models */,
+				6BE113871F9D136F00DD1C9F /* DataManager */,
+				6BE113851F9D135800DD1C9F /* ViewControllers */,
+				6BE1137A1F9D0DC600DD1C9F /* Assets.xcassets */,
+				6BE1137C1F9D0DC600DD1C9F /* LaunchScreen.storyboard */,
+				6BE1137F1F9D0DC600DD1C9F /* Info.plist */,
+			);
+			path = FitsmindToDoApp;
+			sourceTree = "<group>";
+		};
+		6BE113851F9D135800DD1C9F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6BEB8B6D1F9D2BDA00B37F50 /* FMTasksListViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6BE113861F9D136500DD1C9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BEB8B671F9D2A9700B37F50 /* FMTask.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6BE113871F9D136F00DD1C9F /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				6BEB8B5F1F9D1DC600B37F50 /* FMDataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		6BEB8B6D1F9D2BDA00B37F50 /* FMTasksListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6BEB8B6E1F9D2BEC00B37F50 /* FMTasksListViewController.swift */,
+				6BEB8B6F1F9D2BEC00B37F50 /* FMTasksListViewController.xib */,
+			);
+			name = FMTasksListViewController;
+			sourceTree = "<group>";
+		};
+		AD49FA31055AB5035D7FBF6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B7DDA7C554F5F9D686249BA /* Pods-FitsmindToDoApp.debug.xcconfig */,
+				5D21CD34D7AD144FD4702318 /* Pods-FitsmindToDoApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F57C94CE494572A76E3631DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99B572169B098C885601DC77 /* Pods_FitsmindToDoApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BE1136F1F9D0DC600DD1C9F /* FitsmindToDoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BE113821F9D0DC600DD1C9F /* Build configuration list for PBXNativeTarget "FitsmindToDoApp" */;
+			buildPhases = (
+				AD6F35B78516E175D447283A /* [CP] Check Pods Manifest.lock */,
+				6BE1136C1F9D0DC600DD1C9F /* Sources */,
+				6BE1136D1F9D0DC600DD1C9F /* Frameworks */,
+				6BE1136E1F9D0DC600DD1C9F /* Resources */,
+				F036FC14005FD601D076EFBA /* [CP] Embed Pods Frameworks */,
+				77DE47AEF5B3F19B4BB83E5D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitsmindToDoApp;
+			productName = FitsmindToDoApp;
+			productReference = 6BE113701F9D0DC600DD1C9F /* FitsmindToDoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BE113681F9D0DC600DD1C9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Cristina;
+				TargetAttributes = {
+					6BE1136F1F9D0DC600DD1C9F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6BE1136B1F9D0DC600DD1C9F /* Build configuration list for PBXProject "FitsmindToDoApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BE113671F9D0DC600DD1C9F;
+			productRefGroup = 6BE113711F9D0DC600DD1C9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BE1136F1F9D0DC600DD1C9F /* FitsmindToDoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BE1136E1F9D0DC600DD1C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE1137E1F9D0DC600DD1C9F /* LaunchScreen.storyboard in Resources */,
+				6BEB8B711F9D2BEC00B37F50 /* FMTasksListViewController.xib in Resources */,
+				6BE1137B1F9D0DC600DD1C9F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77DE47AEF5B3F19B4BB83E5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitsmindToDoApp/Pods-FitsmindToDoApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD6F35B78516E175D447283A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitsmindToDoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F036FC14005FD601D076EFBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FitsmindToDoApp/Pods-FitsmindToDoApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitsmindToDoApp/Pods-FitsmindToDoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BE1136C1F9D0DC600DD1C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE113741F9D0DC600DD1C9F /* AppDelegate.swift in Sources */,
+				6BEB8B701F9D2BEC00B37F50 /* FMTasksListViewController.swift in Sources */,
+				6BEB8B601F9D1DC600B37F50 /* FMDataManager.swift in Sources */,
+				6BEB8B691F9D2A9700B37F50 /* FMTask.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6BE1137C1F9D0DC600DD1C9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE1137D1F9D0DC600DD1C9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BE113801F9D0DC600DD1C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BE113811F9D0DC600DD1C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BE113831F9D0DC600DD1C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7DDA7C554F5F9D686249BA /* Pods-FitsmindToDoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2E3WU6RRL3;
+				INFOPLIST_FILE = FitsmindToDoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristinasita.FitsmindToDoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BE113841F9D0DC600DD1C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D21CD34D7AD144FD4702318 /* Pods-FitsmindToDoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2E3WU6RRL3;
+				INFOPLIST_FILE = FitsmindToDoApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cristinasita.FitsmindToDoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BE1136B1F9D0DC600DD1C9F /* Build configuration list for PBXProject "FitsmindToDoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE113801F9D0DC600DD1C9F /* Debug */,
+				6BE113811F9D0DC600DD1C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BE113821F9D0DC600DD1C9F /* Build configuration list for PBXNativeTarget "FitsmindToDoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BE113831F9D0DC600DD1C9F /* Debug */,
+				6BE113841F9D0DC600DD1C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BE113681F9D0DC600DD1C9F /* Project object */;
+}
